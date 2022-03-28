@@ -11,13 +11,13 @@
 
 <body>
   <header>
-    <h1 class="title">My portfolio</h1>
+    <h1>Michael Letanosky</h1>
     <div class="right-header">
       <figure>header image</figure>
       <nav>
-        <a class="nav-link">Projects</a>
-        <a class="nav-link">Skillset</a>
-        <a class="nav-link">Contact</a>
+        <a href="#projects-start">Projects</a>
+        <a href="#skillcard-container">Skillset</a>
+        <a href="#contact-footer">Contact</a>
       </nav>
     </div>
   </header>
@@ -27,7 +27,7 @@
     <div class="main-groups">
       <!--Horizontal sections for full projects-->
       <ul class="projects-container">
-        <li class="projects">
+        <li class="projects" id="project start">
           <img>
           <div>
             <h2>Project Title</h2>
@@ -58,7 +58,7 @@
       </section>
 
       <!--Flexbox of cards for additional skillset & examples-->
-      <section class="skillcard-container">
+      <section class="skillcard-container" id="skillcard-container">
         <article class="skillcard">
           <img class="skill-image">
           <h3>Skill Name</h3>
@@ -99,7 +99,7 @@
     <img class="right-image">
   </main>
 
-  <footer>
+  <footer id="contact-footer">
     <a class="footer-link">email</a>
     <a class="footer-link">linkedin</a>
     <a class="footer-link">github</a>

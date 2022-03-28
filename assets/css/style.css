@@ -1,32 +1,67 @@
+* {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
 body {
-  border: 3px solid black;
+  background-image: url(../images/eberhard-grossgasteiger-dSVZ2Qy-caE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
-  border: 3px solid green;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
 }
 
-h1 {
-  border: 3px solid darkred;
+/*Title Card*/
+header h1 {
+  color: white;
+  width: 67%;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 34px 0px 0px 5%;
 }
 
-figure {
-  border: 3px dashed yellowgreen;
+header div {
+  min-width: 33%;
+  text-align: center;
 }
 
-nav {
+header div figure {
+  background-image: url(../images/mirza-mustofa-RPnXl6Rpvk0-unsplash-edited.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 64px;
+}
+
+/*Navigation buttons*/
+header div nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
+  color: white;
+  font-size: 16px;
+  font-weight: 0;
+  padding: 5px;
+}
+
+header nav a {
+  color: white;
+  font-size: 16px;
+  font-weight: 0;
+  padding: 5px;
 }
 
 main {
-  border: 3px solid blue;
+  padding: 300px 0px 0px 0px;
   display: flex;
   align-items: stretch;
 }
@@ -49,22 +84,6 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-
-.title {
-  width: 67%;
-  text-align: center;
-}
-
-.right-header {
-  border: 3px solid purple;
-  min-width: 33%;
-  text-align: center;
-}
-
-.nav-link {
-  border: 3px solid orangered;
-  padding: 5px;
 }
 
 .left-image {
@@ -166,8 +185,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .title {
+  h1 {
     width: 100%;
+    text-align: center;
   }
   
   .skillcard {
