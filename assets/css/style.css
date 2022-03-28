@@ -86,3 +86,26 @@ footer {
   border: 3px dashed darkgreen;
   padding: 5px;
 }
+
+.skillcard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.skillcard {
+  border: 3px solid blue;
+  width: 33.333333%;
+}
+
+
+@media screen and (max-width: 992px) {
+  .skillcard {
+    width: 50%;
+  }
+
+@media screen and (max-width: 768px) {
+  .skillcard {
+    width: 100%;
+  }
