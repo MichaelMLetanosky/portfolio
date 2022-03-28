@@ -25,14 +25,22 @@ nav {
   align-items: stretch;
 }
 
-
-
 main {
   border: 3px solid blue;
+  display: flex;
+  align-items: stretch;
+}
+
+section {
+  border: 3px solid black;
+}
+
+article {
+  border: 3px solid red;
 }
 
 footer {
-  border: 3px solid red;
+  border: 3px solid magenta;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -53,6 +61,25 @@ footer {
 .nav-link {
   border: 3px solid orangered;
   padding: 5px;
+}
+
+.left-image {
+  border: 3px dashed orangered;
+  float: inline-start;
+  width: 100px;
+  height: 1200px;
+}
+
+.right-image {
+  border: 3px dashed purple;
+  float: inline-end;
+  width: 100px;
+  height: 1200px;
+}
+
+.main-groups {
+  border: 3px dashed teal;
+  flex: 1;
 }
 
 .footer-link {
