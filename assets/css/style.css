@@ -2,6 +2,10 @@
   font-family: Verdana, Tahoma, sans-serif;
 }
 
+html {
+  scroll-padding-top: 100px; 
+}
+
 body {
   background-image: url(../images/eberhard-grossgasteiger-dSVZ2Qy-caE-unsplash.jpg);
   background-repeat: no-repeat;
@@ -186,14 +190,22 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+html {
+    scroll-padding-top: 175px; 
+  }
+
   header {
-    height: 200px;
+    height: 175px;
   }
 
   header h1 {
     width: 100%;
     text-align: center;
+    padding: 24px 0px;
+  }
 
+  header div figure {
+    width: 768px;
   }
   
   .skillcard {
