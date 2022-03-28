@@ -66,9 +66,9 @@ header nav a {
 }
 
 main {
-  padding: 300px 0px 0px 0px;
   display: flex;
   align-items: stretch;
+  flex: 1;
 }
 
 ul {
@@ -84,7 +84,8 @@ li:nth-child(2n+1) {
 }
 
 footer {
-  border: 3px solid magenta;
+  background-color: black;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -106,8 +107,9 @@ footer {
 }
 
 .main-groups {
-  border: 3px dashed teal;
-  flex: 1;
+  margin: 450px 75px 0px;
+  background-color: black;
+  color: white;
 }
 
 .projects-container {
@@ -179,18 +181,23 @@ footer {
 }
 
 .footer-link {
-  border: 3px dashed darkgreen;
-  padding: 5px;
+  padding: 10px 5px;
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 992px) {
+  .main-groups {
+    margin: 350px 36px 0px;
+  }
+
   .skillcard {
     width: 50%;
   }
 }
 
 @media screen and (max-width: 768px) {
-html {
+  html {
     scroll-padding-top: 175px; 
   }
 
@@ -207,7 +214,11 @@ html {
   header div figure {
     width: 768px;
   }
-  
+
+  .main-groups {
+    margin: 450px 20px 0px;
+  }
+
   .skillcard {
     width: 100%;
   }
