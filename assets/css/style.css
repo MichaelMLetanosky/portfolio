@@ -1,0 +1,42 @@
+body {
+  border: 3px solid black;
+}
+
+header {
+  border: 3px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+h1 {
+  border: 3px solid darkred;
+}
+
+figure {
+  border: 3px dashed yellowgreen;
+}
+
+main {
+  border: 3px solid blue;
+}
+
+footer {
+  border: 3px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  min-width: 67%;
+  text-align: center;
+}
+
+.right-header{
+  border: 3px solid purple;
+  min-width: 33%;
+  text-align: center;
+}
