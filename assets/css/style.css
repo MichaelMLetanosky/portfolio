@@ -31,12 +31,16 @@ main {
   align-items: stretch;
 }
 
-section {
+ul {
   border: 3px solid black;
 }
 
-article {
+li {
   border: 3px solid red;
+}
+
+li:nth-child(2n+1) {
+  flex-direction: row-reverse;
 }
 
 footer {
@@ -82,9 +86,43 @@ footer {
   flex: 1;
 }
 
-.footer-link {
-  border: 3px dashed darkgreen;
-  padding: 5px;
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.projects img {
+  border: 3px dashed green;
+  width: 600px;
+  height: 300px;
+}
+
+.projects div {
+  border: 3px dashed cyan;
+  height: 300px;
+  flex-grow: 1;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.projects div h2 {
+  border: 3px solid purple;
+  height: 32px;
+}
+
+.projects div p {
+  border: 3px solid rgb(0, 0, 0);
+  flex-grow: 1;
 }
 
 .skillcard-container {
@@ -116,10 +154,16 @@ footer {
   border: 3px dashed lime;
 }
 
+.footer-link {
+  border: 3px dashed darkgreen;
+  padding: 5px;
+}
+
 @media screen and (max-width: 992px) {
   .skillcard {
     width: 50%;
   }
+}
 
 @media screen and (max-width: 768px) {
   .title {
@@ -129,3 +173,4 @@ footer {
   .skillcard {
     width: 100%;
   }
+}
