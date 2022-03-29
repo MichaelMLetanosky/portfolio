@@ -137,10 +137,13 @@ footer {
 }
 
 .projects div h2 {
-  height: 32px;
+  font-size: 22px;
+  margin: 5px 3px;
 }
 
 .projects div p {
+  font-size: 14px;
+  margin: 2px 3px;
   flex-grow: 1;
 }
 
