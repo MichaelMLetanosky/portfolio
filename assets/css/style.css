@@ -152,10 +152,11 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
+  margin: 5px 0px 0px 0px;
 }
 
 .skillcard {
-  border: 3px solid blue;
+  border: 3px solid transparent;
   width: 33.333333%;
   display: flex;
   flex-direction: column;
@@ -163,17 +164,17 @@ footer {
 }
 
 .skillcard img {
-  border: 3px dashed purple;
+
   width: 200px;
   height: 100px;
 }
 
 .skillcard h3 {
-  border: 3px dashed salmon;
+  font-size: 16px;
 }
 
 .skillcard p {
-  border: 3px dashed lime;
+  font-size: 11px;
 }
 
 .footer-link {
