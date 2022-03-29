@@ -224,14 +224,12 @@ footer {
   header section h1 {
     font-size: 24px;
     width: 100%;
-    text-align: center;
-    padding: 12px 0px 0px;
+    padding: 12px 19px 0px;
   }
 
   header section h4 {
     font-size: 14px;
-    text-align: center;
-    margin: 3px 0px 12px;
+    margin: 3px 30px 12px;
   }
   
   header div figure {
@@ -249,5 +247,12 @@ footer {
 
   .skillcard {
     width: 100%;
+  }
+
+  #radius-circle {
+    border-radius: 50%;
+    height: 90px;
+    text-align: center;
+    margin: 10px;
   }
 }
