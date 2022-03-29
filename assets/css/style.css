@@ -27,8 +27,8 @@ header {
 /*Left Header*/
 header section {
   color: white;
-  width: 67%;
-  padding: 34px 0px 0px 5%;
+  flex-grow: 1;
+  padding: 34px 0px 0px 10px;
 }
 
 header section h1 {
@@ -86,6 +86,7 @@ main {
 
 main .main-groups {
   margin: 450px 75px 0px;
+  border-radius: 5px 5px 0px 0px;
   background-color: black;
   color: white;
 }
@@ -184,6 +185,16 @@ footer {
   padding: 10px 20px;
   color: white;
   text-decoration: none;
+}
+
+#top-project {
+  border-radius: 0px 5px 0px 0px;
+}
+
+#radius-circle {
+  border-radius: 50%;
+  height: 90px;
+  margin: 5px 0px 0px 10px;
 }
 
 @media screen and (max-width: 992px) {
