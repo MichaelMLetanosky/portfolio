@@ -1,5 +1,6 @@
 * {
   font-family: Verdana, Tahoma, sans-serif;
+  line-height: 1.1;
 }
 
 html {
@@ -89,6 +90,20 @@ main .main-groups {
   border-radius: 5px 5px 0px 0px;
   background-color: black;
   color: white;
+}
+
+/*Profile*/
+main .profile {
+  margin: 10px 5px;
+  border-bottom: 1px solid white;
+}
+
+main .profile h2{
+  font-size: 24px;
+}
+
+main .profile p {
+  margin: 10px;
 }
 
 /*Projects*/
