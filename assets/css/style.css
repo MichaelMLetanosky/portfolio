@@ -28,9 +28,12 @@ header {
 header section {
   color: white;
   width: 67%;
+  padding: 34px 0px 0px 5%;
+}
+
+header section h1 {
   font-size: 32px;
   font-weight: 900;
-  padding: 34px 0px 0px 5%;
 }
 
 header section h4 {
@@ -152,7 +155,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  margin: 5px 0px 0px 0px;
+  padding: 5px 0px 20px 0px;
 }
 
 .skillcard {
@@ -178,13 +181,13 @@ footer {
 }
 
 .footer-link {
-  padding: 10px 5px;
+  padding: 10px 20px;
   color: white;
   text-decoration: none;
 }
 
 @media screen and (max-width: 992px) {
-  .main-groups {
+  main .main-groups {
     margin: 350px 36px 0px;
   }
 
@@ -207,13 +210,15 @@ footer {
     height: 220px;
   }
 
-  header h1 {
+  header section h1 {
+    font-size: 24px;
     width: 100%;
     text-align: center;
     padding: 12px 0px 0px;
   }
 
   header section h4 {
+    font-size: 14px;
     text-align: center;
     margin: 3px 0px 12px;
   }
@@ -222,7 +227,7 @@ footer {
     width: 768px;
   }
 
-  .main-groups {
+  main .main-groups {
     margin: 450px 20px 0px;
   }
   
