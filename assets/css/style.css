@@ -24,14 +24,22 @@ header {
   align-items: stretch;
 }
 
-/*Title Card*/
-header h1 {
+/*Left Header*/
+header section {
   color: white;
   width: 67%;
   font-size: 32px;
   font-weight: 900;
   padding: 34px 0px 0px 5%;
 }
+
+header section h4 {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 5px 0px 0px 5%;
+}
+
+/*Right Header*/
 
 header div {
   min-width: 33%;
@@ -65,23 +73,31 @@ header nav a {
   text-decoration: none;
 }
 
+/*Main*/
+
 main {
   display: flex;
   align-items: stretch;
   flex: 1;
 }
 
-ul {
-  border: 3px solid black;
+main .main-groups {
+  margin: 450px 75px 0px;
+  background-color: black;
+  color: white;
 }
 
-li {
-  border: 3px solid red;
+/*Projects*/
+
+main ul li {
+  margin: 3px 0px;
 }
 
-li:nth-child(2n+1) {
+main ul li:nth-child(2n+1) {
   flex-direction: row-reverse;
 }
+
+/*footer*/
 
 footer {
   background-color: black;
@@ -92,25 +108,7 @@ footer {
   align-items: center;
 }
 
-.left-image {
-  border: 3px dashed orangered;
-  float: inline-start;
-  width: 100px;
-  height: 1200px;
-}
-
-.right-image {
-  border: 3px dashed purple;
-  float: inline-end;
-  width: 100px;
-  height: 1200px;
-}
-
-.main-groups {
-  margin: 450px 75px 0px;
-  background-color: black;
-  color: white;
-}
+/*Classes*/
 
 .projects-container {
   display: flex;
@@ -126,14 +124,11 @@ footer {
 }
 
 .projects img {
-  border: 3px dashed green;
   width: 600px;
   height: 300px;
 }
 
 .projects div {
-  border: 3px dashed cyan;
-  height: 300px;
   flex-grow: 1;
   display:flex;
   flex-direction: column;
@@ -142,12 +137,10 @@ footer {
 }
 
 .projects div h2 {
-  border: 3px solid purple;
   height: 32px;
 }
 
 .projects div p {
-  border: 3px solid rgb(0, 0, 0);
   flex-grow: 1;
 }
 
@@ -191,6 +184,11 @@ footer {
     margin: 350px 36px 0px;
   }
 
+  .projects img {
+    width: 400px;
+    height: 200px;
+  }
+
   .skillcard {
     width: 50%;
   }
@@ -202,21 +200,31 @@ footer {
   }
 
   header {
-    height: 175px;
+    height: 220px;
   }
 
   header h1 {
     width: 100%;
     text-align: center;
-    padding: 24px 0px;
+    padding: 12px 0px 0px;
   }
 
+  header section h4 {
+    text-align: center;
+    margin: 3px 0px 12px;
+  }
+  
   header div figure {
     width: 768px;
   }
 
   .main-groups {
     margin: 450px 20px 0px;
+  }
+  
+  .projects img {
+    width: 300px;
+    height: 150px;
   }
 
   .skillcard {
