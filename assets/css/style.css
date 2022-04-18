@@ -17,6 +17,7 @@ body {
 header {
   background-color: black;
   position: fixed;
+  z-index: 100;
   width: 100%;
   height: 100px;
   display: flex;
@@ -149,8 +150,8 @@ footer {
 
 .projects img {
   float: left;
-  width: 600px;
-  height: 300px;
+  width: 750px;
+  height: 375px;
 }
 
 .projects:nth-child(2n+1) img {
@@ -159,8 +160,8 @@ footer {
 
 .projects:hover img {
   transition: .4s ease-out;
-  width: 750px;
-  height: 375px;
+  width: 850px;
+  height: 425px;
 }
 
 .projects div {
@@ -230,6 +231,30 @@ footer {
   margin: 5px 0px 0px 10px;
 }
 
+@media screen and (max-width: 1400px) {
+    .projects img {
+      width: 650px;
+      height: 325px;
+  }
+
+  .projects:hover img {
+    width: 750px;
+    height: 375px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .projects img {
+      width: 450px;
+      height: 225px;
+  }
+
+  .projects:hover img {
+    width: 550px;
+    height: 275px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   main .main-groups {
     margin: 350px 36px 0px;
@@ -238,6 +263,11 @@ footer {
   .projects img {
     width: 400px;
     height: 200px;
+  }
+
+  .projects:hover img {
+    width: 500px;
+    height: 250px;
   }
 
   .skillcard {
@@ -276,6 +306,11 @@ footer {
   .projects img {
     width: 300px;
     height: 150px;
+  }
+
+  .projects:hover img {
+    width: 350px;
+    height: 175px;
   }
 
   .skillcard {
