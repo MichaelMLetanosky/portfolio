@@ -70,12 +70,22 @@ header div nav {
 }
 
 header nav a {
+  margin: 2px;
+  padding: 3px;
   color: white;
   font-size: 16px;
   font-weight: 0;
-  padding: 5px;
   text-decoration: none;
+  background: linear-gradient(to bottom, black 50%, rgb(71, 71, 71) 50%) top;
+  background-size: 100% 200%;
+  transition: .25s ease-out;
 }
+
+header nav a:hover {
+  background-position: bottom;
+}
+
+
 
 /*Main*/
 
@@ -112,9 +122,6 @@ main ul li {
   margin: 3px 0px;
 }
 
-main ul li:nth-child(2n+1) {
-  flex-direction: row-reverse;
-}
 
 /*footer*/
 
@@ -134,17 +141,26 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  position: relative;
 }
 
 .projects {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
 }
 
 .projects img {
+  float: left;
   width: 600px;
   height: 300px;
+}
+
+.projects:nth-child(2n+1) img {
+  float: right;
+}
+
+.projects:hover img {
+  transition: .4s ease-out;
+  width: 750px;
+  height: 375px;
 }
 
 .projects div {
@@ -155,12 +171,14 @@ footer {
   align-items: stretch;
 }
 
-.projects div h2 {
+.projects a {
+  text-decoration: none;
+  color: White;
   font-size: 22px;
   margin: 5px 3px;
 }
 
-.projects div p {
+.projects p {
   font-size: 14px;
   margin: 2px 3px;
   flex-grow: 1;
