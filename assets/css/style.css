@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: url(../images/eberhard-grossgasteiger-dSVZ2Qy-caE-unsplash.jpg);
+  background-image: url(../images/background-rocks.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -52,7 +52,7 @@ header div {
 }
 
 header div figure {
-  background-image: url(../images/mirza-mustofa-RPnXl6Rpvk0-unsplash-edited.jpg);
+  background-image: url(../images/header-keyboard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 64px;

@@ -11,11 +11,11 @@
 
 <body>
   <header>
-    <img src="./assets/images/Profile Photo square.jpg" id="radius-circle">
+    <img src="./assets/images/profilePhoto-square.jpg" id="radius-circle">
       <!--Left Header-->
     <section>
     <h1>Michael Letanosky</h1>
-    <h4>full stack webdeveloper in training</h4>
+    <h4>full stack webdeveloper</h4>
     </section>
       <!--Right Header-->
     <div class="right-header">
@@ -32,78 +32,85 @@
 
   <main>
     <div class="main-groups">
+
+      <!-- Profile -->
       <div class="profile" id="profile">
         <h2>Profile</h2>
-        <p>Started UCF fullstack coding bootcamp in March 2022. Previously worked at Universal as an Operations team lead, in charge of over 200 employees. Proficient with Microsoft Word, Excel, Publisher, and PowerPoint. Proficient with Photoshop. Have a cat named Nemesis.</p>
+        <p>Problem Solving, Self MotivatingStarted UCF fullstack coding bootcamp in March 2022. Previously worked at Universal as an Operations team lead, in charge of over 200 employees. Proficient with Microsoft Word, Excel, Publisher, and PowerPoint. Proficient with Photoshop. Have a cat named Nemesis.</p>
       </div>  
-      <!--Horizontal sections for full projects-->
+
+      <!-- Projects -->
       <ul class="projects-container" id="projects-container">
         <li class="projects">
-          <a href="https://michaelmletanosky.github.io/worth-a-shot/"><img src="./assets/images/worthAShot-SS.png"></a>
+          <a href="https://michaelmletanosky.github.io/worth-a-shot/"><img src="./assets/images/worthAShot-ss.png"></a>
           <a href="https://github.com/MichaelMLetanosky/worth-a-shot">Worth a Shot</a>
-          <p>For this project, my team wanted to tackle a common problem when you find yourself with a free night, you want to go out but you don't want to do the same old thing. Instead, with the help of Worth a Shot the user can mix things up when they get a mixer. The user can search on the application using any ingredient (e.g. rum, vodka, or orange juice) and get back six randomized drinks containing that ingredient, including a picture and a list of the other ingredients. Any that strike their interests, the user can then save. The user can then search their local areas for bar recommendations and save those as well. The user can then access their favorites by simply clicking the link in the top right.</p>
+          <p>For this project, my team wanted to tackle a common problem when you find yourself with a free night, you want to go out but you don't want to do the same old thing. Instead, with the help of Worth a Shot the user can mix things up when they get a mixer. The user can search on the application using any ingredient (e.g. rum, vodka, or orange juice) and get back six randomized drinks containing that ingredient, including a picture and a list of the other ingredients. Any that strike their interests, the user can then save. The user can then search their local areas for bar recommendations and save those as well. The user can then access their favorites by simply clicking the link in the top right.</p><br>
+          <p>Links:<a href="https://michaelmletanosky.github.io/worth-a-shot/">Website</a><a href="https://github.com/MichaelMLetanosky/worth-a-shot">gitHub</a></p>
         </li>
         <li class="projects">
-          <a href="https://dashboard.heroku.com/apps/boiling-meadow-77947"><img src="./assets/images/reelGoodMovies-SS.png"></a>
+          <a href="https://dashboard.heroku.com/apps/boiling-meadow-77947"><img src="./assets/images/reelGoodMovies-ss.png"></a>
           <a href="https://github.com/MichaelMLetanosky/reel-good-movies">Reel Good Movies</a>
-          <p>The application has the functionality to search for movies and pull them from the OMDB api and shows various statistics of the movie as well as other users' reviews of the movie. The user may then log in to add the movie to their favorites list or to review the movie. The user may also click on a reviewer's username to visit their profile to see their other favorite movies and reviews or to follow them. Once logged in the user can also view their own profile to see their full list of favorite movies and all reviews they have written.</p>
-          <br>
-          <p> This project includes full login/logout functionality and includes a well-organized database and server routing, in addition to a fleshed out front end utilizing handlebars that is fully responsive, including for mobile.</p>
+          <p>The application has the functionality to search for movies and pull them from the OMDB api and shows various statistics of the movie as well as other users' reviews of the movie. The user may then log in to add the movie to their favorites list or to review the movie. The user may also click on a reviewer's username to visit their profile to see their other favorite movies and reviews or to follow them. Once logged in the user can also view their own profile to see their full list of favorite movies and all reviews they have written.</p><br>
+          <p>This project includes full login/logout functionality and includes a well-organized database and server routing, in addition to a fleshed out front end utilizing handlebars that is fully responsive, including for mobile.</p><br>
+          <p>Links:<a href="https://dashboard.heroku.com/apps/boiling-meadow-77947">Website</a><a href="https://github.com/MichaelMLetanosky/reel-good-movies">gitHub</a></p>
         </li>
         <li class="projects">
-          <a href=""><img src="./assets/images/ken-suarez-4IxPVkFGJGI-unsplash.jpg"></a>
-          <a href="">Project Title</a>
-          <p>Description of project</p>
-        </li>
-        <li class="projects">
-          <a href=""><img src="./assets/images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"></a>
-          <a href="">Project Title</a>
-          <p>Description of project</p>
+          <a href="https://stormy-depths-64788.herokuapp.com/"><img src="./assets/images/atYourDoorstep-ss.png"></a>
+          <a href="https://github.com/Jmaun22/At-Your-Door-Step-">At Your Doorstep</a>
+          <p>Description of project</p><br>
+          <p>Links:<a href="https://stormy-depths-64788.herokuapp.com/">Website</a><a href="https://github.com/Jmaun22/At-Your-Door-Step-">gitHub</a></p>
         </li>
       </ul>
 
-      <!--Flexbox of cards for additional skillset & examples-->
-      <section class="skillcard-container" id="skillcard-container">
-        <article class="skillcard">
-          <a href="#"><img class="skill-image" src="./assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg"></a>
+      <!-- Skills -->
+      <div class="skillcard-container" id="skillcard-container">
+        <div class="skillcard">
+          <a href="https://stormy-fjord-08585.herokuapp.com/"><img class="skill-image" src="./assets/images/bookSearchEngine-ss.png"></a>
+          <h3>Book Search Engine</h3>
+          <p>Includes a full MERN setup with GraphQL API using an Apollo Server with queries and mutations, full login/logout functionality, and uses Google Books API search</p><br>
+          <p>Links: <a href="https://stormy-fjord-08585.herokuapp.com/">Website</a> <a href="https://github.com/MichaelMLetanosky/book-search-engine">gitHub</a></p>
+        </div>
+        <div class="skillcard">
+          <a href="#"><img class="skill-image" src="./assets/images/placeholder-tablet.jpg"></a>
           <h3>Skill Placeholder</h3>
-          <p>Include a brief description of skill here</p>
-        </article>
-        <article class="skillcard">
-          <img class="skillcard" src="./assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg">
+          <p>Include a brief description of skill here</p><br>
+          <p>Links: <a href="#">Website</a> <a href="#">gitHub</a></p>
+        </div>
+        <div class="skillcard">
+          <a href="#"><img class="skill-image" src="./assets/images/placeholder-tablet.jpg"></a>
           <h3>Skill Placeholder</h3>
-          <p>Include a brief description of skill here</p>
-        </article>
-        <article class="skillcard">
-          <img class="skill-image" src="./assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg">
+          <p>Include a brief description of skill here</p><br>
+          <p>Links: <a href="#">Website</a> <a href="#">gitHub</a></p>
+        </div>
+        <div class="skillcard">
+          <a href="#"><img class="skill-image" src="./assets/images/placeholder-tablet.jpg"></a>
           <h3>Skill Placeholder</h3>
-          <p>Include a brief description of skill here</p>
-        </article>
-        <article class="skillcard">
-          <img class="skill-image" src="./assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg">
+          <p>Include a brief description of skill here</p><br>
+          <p>Links: <a href="#">Website</a> <a href="#">gitHub</a></p>
+        </div>
+        <div class="skillcard">
+          <a href="#"><img class="skill-image" src="./assets/images/placeholder-tablet.jpg"></a>
           <h3>Skill Placeholder</h3>
-          <p>Include a brief description of skill here</p>
-        </article>
-        <article class="skillcard">
-          <img class="skill-image" src="./assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg">
+          <p>Include a brief description of skill here</p><br>
+          <p>Links: <a href="#">Website</a> <a href="#">gitHub</a></p>
+        </div>
+        <div class="skillcard">
+          <a href="#"><img class="skill-image" src="./assets/images/placeholder-tablet.jpg"></a>
           <h3>Skill Placeholder</h3>
-          <p>Include a brief description of skill here</p>
-        </article>
-        <article class="skillcard">
-          <img class="skill-image" src="./assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg">
+          <p>Include a brief description of skill here</p><br>
+          <p>Links: <a href="#">Website</a> <a href="#">gitHub</a></p>
+        </div>
+        <div class="skillcard">
+          <a href="#"><img class="skill-image" src="./assets/images/placeholder-tablet.jpg"></a>
           <h3>Skill Placeholder</h3>
-          <p>Include a brief description of skill here</p>
-        </article>
-        <article class="skillcard">
-          <img class="skill-image" src="./assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg">
-          <h3>Skill Placeholder</h3>
-          <p>Include a brief description of skill here</p>
-        </article>
-      </section>
+          <p>Include a brief description of skill here</p><br>
+          <p>Links: <a href="#">Website</a> <a href="#">gitHub</a></p>
+        </div>
+      </div>
     </div>
   </main>
 
-    <!--Footer-->
+    <!-- Contact Footer -->
   <footer id="contact-footer">
     <a class="footer-link" href="#">email</a>
     <a class="footer-link" href="https://www.linkedin.com/in/michael-l-aa3074233/">linkedin</a>

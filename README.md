@@ -3,7 +3,7 @@ Begining draft for the Portfolio that I will build during the BootCamp.
 
 Deployed version can be found at https://michaelmletanosky.github.io/portfolio/
 
-![Screenshot of the top of Michael Letanosky's portfolio](./assets/images/homeWork2ss.png)
+![Screenshot of the top of Michael Letanosky's portfolio](./assets/images/readMe-profiless.png)
 
 ## Your Task
 
